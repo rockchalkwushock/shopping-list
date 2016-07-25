@@ -1,3 +1,17 @@
+/* 
+#########################################
+#
+#  Table of Contents
+#  
+#  1) Parent Elements
+#  2) Button Elements
+#  3) Shopping List Elements 
+#
+#########################################
+*/
+
+/*---------- Parent Elements ----------*/
+
 * {
   box-sizing: border-box;
 }
@@ -6,6 +20,8 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/*---------- Button Elements ----------*/
+
 button, input[type="text"] {
   padding: 5px;
 }
@@ -13,6 +29,8 @@ button, input[type="text"] {
 button:hover {
   cursor: pointer;
 }
+
+/*---------- Shopping List Elements ----------*/
 
 #shopping-list-item {
   width: 250px;
