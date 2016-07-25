@@ -8,9 +8,13 @@
 *		c) Deleting Item Function
 */
 
-// 	Unresolved Issues (25July2016, CAB)
-// 		1) padding between "check" & "delete" buttons on new items.
-
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$
+$ 	Unresolved Issues (25July2016, CAB)
+$ 		1) padding between "check" & "delete" buttons on new items.
+$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+*/
 
 // ########################################
 /* ---------- Parent Function ---------- */
