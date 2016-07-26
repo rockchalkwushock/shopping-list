@@ -8,14 +8,6 @@
 *		c) Deleting Item Function
 */
 
-/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-$
-$ 	Unresolved Issues (25July2016, CAB)
-$ 		1) padding between "check" & "delete" buttons on new items.
-$
-$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-*/
-
 // ########################################
 /* ---------- Parent Function ---------- */
 // ########################################
@@ -54,7 +46,7 @@ function addToList ()
             // Add item to list.
             console.log('Item_Added');
             $('.shopping-list').append('<li><span class="shopping-item">' +
-                userInput + '</span><div class="shopping-item-controls">' + '<button class="shopping-item-toggle">' + '<span class="button-label"> check </span></button><button class="shopping-item-delete">' + '<span class="button-label"> delete </span></button></div></li>');
+                userInput + '</span><div class="shopping-item-controls">' + '<button class="shopping-item-toggle">' + '<span class="button-label"> check </span></button> <button class="shopping-item-delete">' + '<span class="button-label"> delete </span></button></div></li>');
         }
     });
 };
